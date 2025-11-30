@@ -1,0 +1,135 @@
+*{
+    
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    overflow: hidden;
+    background-image: url("img3.jpg");
+    background-size: 100% 100%;
+    
+    
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    height: 500px;
+    width: 600px;
+    /* background-image: linear-gradient(darkblue,pink); */
+    background-image: transparent;
+    box-shadow: 1px 1px  10px 5px gray;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: -150px;
+    border-radius: 10px;
+
+}
+.content{
+    margin: 30px;
+    padding: 15px;
+    background-color:transparent;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    height: 70px;
+    width: 550px;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.btn{
+    font-size: 30px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: transparent;
+    margin-left: 18px;
+}
+.elements{
+    background-image: transparent;
+    height: 350px;
+    width: 550px;
+    margin-top: -20px;
+    display: flex;
+    overflow-y:auto;
+    
+    border-radius: 10px;
+    
+
+   
+    
+}
+li{
+    list-style-type: none;
+    width: 400px;
+    height: 30px;
+    /* background-image:linear-gradient(blue,pink,white,orange); */
+    /* border: 2px solid black; */
+    margin: 20px;
+    box-shadow:1px 1px 10px 5px gray ;
+    padding: 15px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: white;
+    
+}
+ li:nth-child(2){
+    color: red;
+ }
+h1{
+    margin-left: 43%;
+  
+    padding: 20px;
+    padding-top: 20px;
+    /* border: 2px solid black; */
+    display: inline-block;
+    background-color: transparent;
+    border-radius: 5px;
+    /* background-image: linear-gradient(blue,pink); */
+    box-shadow: 1px 1px  10px 5px gray;
+    color: bisque;
+}
+.inp{
+    width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    margin-left: -18px;
+}
+.btn1{
+   background-color: red;
+   display:flex;
+   border: 1px solid gray;
+   border-radius: 50%;
+   justify-content: center;
+   align-items: center;
+   font-size: 50px;
+   font-weight: bold;
+  padding-bottom: 0.4rem;
+   margin: 20px;
+   width: 50px;
+   height: 50px;
+  
+  
+   
+   cursor: pointer;
+   
+}
+.unlist{
+   display: flex;
+   flex-wrap: wrap;
+  
+   
+   align-content: flex-start;
+
+
+}
